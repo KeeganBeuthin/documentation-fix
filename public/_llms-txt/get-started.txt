@@ -23,7 +23,7 @@ keywords:
   - frontmatter
   - metadata
   - kinde
-updated: 2025-09-18
+updated: 2025-10-31
 featured: false
 deprecated: false
 ai_summary: "Complete documentation for Kinde's get started section containing titles, descriptions, keywords, topics, and full content from all documentation files in this section for LLM training"
@@ -184,7 +184,7 @@ You can invite other team members and give them access to your business on Kinde
 enterprise access, saml, identity provider, idp, entity id, metadata url, acs url
 get-started, team-and-account
 
-If you want your team members to sign in to the Kinde dashboard using an enterprise connection (such as SAML) instead of via our default sign up flow, you can contact us to request it. You must be on a Kinde Scale or Enterprise plan to request this. Email your business name and email ID to support@kinde.com and provide the following from your Identity Provider (IdP): - Entity ID - IdP metadata URL - Email key attribute - First name key attribute - Last name key attribute - Home realm domains Once we have these, we can set up the connection and send you an ACS url (also known as a **reply url**), for example: `https://app.kinde.com/login/saml/callback`, to complete the setup with your IdP.
+If you want your team members to sign in to the Kinde dashboard using an enterprise connection (such as SAML) instead of via our default sign up flow, you can contact us to request it. You must be on a Kinde Scale or Enterprise plan to request this. Email your business name and email ID to support@kinde.com and provide the following from your Identity Provider (IdP). For SAML connections: - Entity ID - IdP metadata URL - Home realm domains - Email key attribute - First name key attribute - Last name key attribute - Upstream params (if applicable) For Entra ID connections: - Client ID - Client Secret^ - Microsoft Entra domain - Home realm domains (if applicable) - Upstream params (if applicable) ^Contact us to discuss the most secure way to provide this information Once we have these, we can set up the connection and send you an ACS url (also known as a **reply url**), for example: `https://app.kinde.com/login/saml/callback`, to complete the setup with your IdP.
 
 # Get started - Team and account - Claim credits with Kinde perk code
 

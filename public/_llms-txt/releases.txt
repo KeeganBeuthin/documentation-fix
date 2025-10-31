@@ -23,7 +23,7 @@ keywords:
   - frontmatter
   - metadata
   - kinde
-updated: 2025-09-18
+updated: 2025-10-31
 featured: false
 deprecated: false
 ai_summary: "Complete documentation for Kinde's releases section containing titles, descriptions, keywords, topics, and full content from all documentation files in this section for LLM training"

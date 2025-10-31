@@ -22,7 +22,7 @@ keywords:
   - frontmatter
   - metadata
   - kinde
-updated: 2025-09-18
+updated: 2025-10-31
 featured: false
 deprecated: false
 ai_summary: "Abridged version of Kinde documentation containing titles, descriptions, keywords, and topics from all documentation files for LLM training"
@@ -39,6 +39,12 @@ This is an abridged version of the Kinde documentation containing titles, descri
 
 Learn about Kinde's authentication methods including password, passwordless, social sign-in, and enterprise connections.
 authentication, sign up, sign in, password, passwordless, social login, enterprise, SSO
+authenticate
+
+### Top questions about authentication
+
+Frequently asked questions about Kinde authentication.
+authentication, FAQ, troubleshooting, setup, configuration
 authenticate
 
 ### Ways to authenticate
@@ -147,6 +153,12 @@ authenticate
 
 Step-by-step guide to creating custom authentication pages while maintaining Kinde's security for verification and MFA processes.
 custom authentication pages, connection ID, login_hint, social auth, email auth, phone auth, enterprise auth
+authenticate
+
+### Custom OAuth 2.0 connections
+
+Step-by-step guide to setting up custom OAuth2 and OIDC connections including OAuth provider setup, credentials configuration, and Kinde integration.
+custom OAuth2, OIDC, OAuth provider, client ID, client secret, callback URL, custom connection, identity provider
 authenticate
 
 ### Disable self sign-up
@@ -442,6 +454,12 @@ Comprehensive guide to billing concepts and terminology including plan groups, f
 billing concepts, plan groups, features, pricing models, metered usage, fixed charges, multi-currency
 billing
 
+### Billing FAQ
+
+Frequently asked questions about Kinde billing including setup, plan management, payment processing, and customer support scenarios.
+billing faq, billing questions, plan management, payment processing, subscription management, customer support
+billing, faq, plans, payments, subscriptions
+
 ### Top questions about Kinde billing
 
 A collection of the top questions and answers about how to set up and configure Kinde billing for your Kinde business.
@@ -733,11 +751,23 @@ Use advanced organizations to override the self-serve portal setting for individ
 self-serve, plan, bill, payment method, SSO
 self-serve portal, manage organizations, self-manage, SSO, plan management, payment details
 
-### Customer self-serve portal
+### Customer self-service portal
 
-Intro to concept of self-serve portals in Kinde, including what functions they include, how to use them, and when to set them up.
+Intro to concept of self-service portals in Kinde, including what functions they include, how to use them, and when to set them up.
 organization portal, self-serve portal, user portal, billing portal, portal permissions
 self-serve-portal, organizations, users, billing
+
+### Enable self-serve portal for orgs
+
+Guide for enabling self-serve portals for organizations including business details management, billing access, permission controls, and portal link generation methods.
+organization portal, self-serve portal, org management, billing portal, portal permissions, organization alias
+self-serve-portal, organizations, billing
+
+### Enable self-service portal for users
+
+Guide for enabling and configuring self-service portals for users including profile management, billing access, and multiple methods for generating portal links with SDK and API examples.
+self-serve portal, user portal, account management, billing portal, portal link, account API
+self-serve-portal, user-management, billing
 
 ### Set global access policies
 
@@ -768,18 +798,6 @@ access-requests, user-management, onboarding
 Guide for managing multiple businesses on Kinde including adding new businesses, switching between them, and safely deleting businesses with data export considerations.
 multiple businesses, business management, switch business, delete business, data export
 business-management, multi-tenancy
-
-### Enable self-serve portal for orgs
-
-Guide for enabling self-serve portals for organizations including business details management, billing access, permission controls, and portal link generation methods.
-organization portal, self-serve portal, org management, billing portal, portal permissions, organization alias
-self-serve-portal, organizations, billing
-
-### Enable self-serve portal for users
-
-Guide for enabling and configuring self-serve portals for users including profile management, billing access, and multiple methods for generating portal links with SDK and API examples.
-self-serve portal, user portal, account management, billing portal, portal link, account API
-self-serve-portal, user-management, billing
 
 ### Manage your code in Kinde
 
@@ -1993,19 +2011,19 @@ Guide to viewing and editing application properties in Kinde including manual ed
 application properties, property management, internal id, api management, property editing, application data, property values
 properties, about-properties
 
-### About properties
+### Custom claims and data with properties
 
 Overview of properties in Kinde including custom data management, token claims, property categories, and API integration for flexible data storage
 properties, custom data, custom claims, tokens, kinde-provided properties, property categories, organization properties, user properties, application properties, api management
 properties, about-properties
 
-### View and edit organization properties
+### Add custom data for orgs
 
 Guide to viewing and editing organization properties in Kinde including manual editing and API management for organization data
 organization properties, property management, organization data, property editing, api management, property values, organization details
 properties, about-properties
 
-### Add and manage properties
+### Add and manage custom data with properties
 
 Comprehensive guide to adding and managing properties in Kinde including property types, creation, editing, and token integration considerations
 add properties, manage properties, property creation, property types, boolean properties, text properties, property keys, private properties, public properties, api management
@@ -2017,7 +2035,7 @@ Comprehensive guide to using marketing tags as properties in Kinde including UTM
 marketing tags, utm tags, google ads, campaign tracking, analytics, properties, auth flow, react sdk, api management, search api
 properties, work-with-properties
 
-### Add and manage properties in tokens
+### Customize tokens using properties
 
 Guide to adding and managing properties in tokens including token customization rules for different application types and token types
 properties in tokens, token customization, access tokens, id tokens, m2m tokens, public properties, token claims, backend applications, frontend applications, m2m applications
@@ -2029,7 +2047,7 @@ Guide to adding and managing property categories in Kinde for organizing user, o
 property categories, property groups, property organization, user properties, organization properties, application properties, api management, property display
 properties, work-with-properties
 
-### View and edit user properties
+### Edit custom data for users via properties
 
 Guide to viewing and editing user properties in Kinde including manual editing and API management for user data
 user properties, property management, user data, property editing, api management, property values, user details
@@ -2403,4 +2421,10 @@ workflows, testing, quality-assurance
 Learn about preview mode in Kinde workflows that allows safe testing of workflow changes in production before making them live, using deployment IDs and passwords.
 preview workflows, testing, safe deployment, production testing, workflow validation
 workflows, testing, preview
+
+### Tutorial - Customize tokens using workflows
+
+Learn how to customize tokens using workflows, to help distinguish customer types.
+pre-registration, user registration, IP checks, disposable emails, spam prevention, authentication triggers
+workflows, example-workflows, authentication
 
